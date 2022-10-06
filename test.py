@@ -2,14 +2,16 @@
 #
 # name = input("Please enter a name: ")
 # print(f"My name is {name}")
-age = int(input("Please enter a age: "))
+for count in range(0, 100, 1):
 
-if age <= 5:
-    print("Free")
+    age = int(input("Please enter a age: "))
 
-elif 18 > age > 5:
-    print("£300")
+    if age <= 5:
+        print("Free")
 
-else:
-    print("1")
+    elif age < 18:
+        print("£300")
+
+    else:
+        print("1")
 
